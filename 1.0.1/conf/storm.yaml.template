@@ -1,0 +1,6 @@
+storm.zookeeper.servers:
+    - %zk_service_name%
+
+nimbus.seeds: ["%nimbus_service_name%"]
+
+storm.local.hostname: "%service_name%.service.consul"
